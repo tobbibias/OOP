@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eba5de2-a13c-494f-ab4f-82c73f317243" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmer/uke1/Oblig1_OOP_TobiasSøyland/oppgave2/Oppgave.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmer/uke1/Oblig1_OOP_TobiasSøyland/oppgave2/Oppgave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmer/uke1/Oblig1_OOP_TobiasSøyland/oppgave3/oppgave3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmer/forelesning04/no/hiof/tobiasgs/eksempel01/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmer/forelesning04/no/hiof/tobiasgs/eksempel01/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmer/forelesning04/no/hiof/tobiasgs/eksempel02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmer/forelesning04/no/hiof/tobiasgs/eksempel02/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +25,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="771" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -38,7 +35,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,18 +60,11 @@
               <item name="uke1" type="462c0819:PsiDirectoryNode" />
               <item name="Oblig1_OOP_TobiasSøyland" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="programmer" type="462c0819:PsiDirectoryNode" />
-              <item name="uke1" type="462c0819:PsiDirectoryNode" />
-              <item name="Oblig1_OOP_TobiasSøyland" type="462c0819:PsiDirectoryNode" />
-              <item name="oppgave3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,16 +128,17 @@
       <updated>1546957399693</updated>
       <workItem from="1546957400969" duration="4556000" />
       <workItem from="1547715721242" duration="74000" />
+      <workItem from="1548162960961" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4630000" />
+    <option name="totallyTimeSpent" value="4809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="771" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -199,12 +189,6 @@
     <entry file="file://$PROJECT_DIR$/programmer/uke1/helloWorld">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmer/uke1/Oblig1_OOP_TobiasSøyland/oppgave3/oppgave3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/programmer/uke1/Oblig1_OOP_TobiasSøyland/oppgave3/oppgave3.java" />
   </component>
 </project>

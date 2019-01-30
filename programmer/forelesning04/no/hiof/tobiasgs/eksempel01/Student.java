@@ -10,7 +10,7 @@ public class Student{
 	private String etternavn;
 	private int alder;
 	private String studentId, fodselsnummer;
-	private Kurs oppsattKurs;
+	private Kurs[] kursArray;
 
 	// her kommer constructor (konstruktøren)
 
@@ -25,13 +25,14 @@ public class Student{
 	public Student(String fornavn, String etternavn){
 		this.fornavn = fornavn;
 		this.etternavn = etternavn;
+		kursArray = new Kurs[18];
 	}
 
 	public Student(){	
 	}
 	//get metoder//
-	public Kurs getOppsattkurs(){
-		return oppsattKurs;
+	public Kurs[] getOppsattkurs(){
+		return kursArray.clone();
 	}
 	
 	public String getFornavn(){
@@ -71,8 +72,13 @@ public class Student{
 		*/
 		this.studentId = studentId;
 	}
-	public void setOppsattKurs(Kurs oppsattKurs){
-		this.oppsattKurs = oppsattKurs;
+	public void LeggTillKurs(Kurs oppsattKurs){
+		for (int i =0; i < this.kursArray.length; i++){
+			if (kursArray.[i] == null){
+				kursArray[i] = oppsattKurs;
+				break;
+			}
+		}
 	}
 
 	public void printStudentInfo(){

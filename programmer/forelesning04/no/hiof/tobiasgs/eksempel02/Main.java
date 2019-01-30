@@ -11,11 +11,12 @@ public class Main{
 
 		Student albertEinstein = new Student("Albert", "Einstein");
 
-		albertEinstein.setOppsattKurs(mobilProgrammering);
+		albertEinstein.leggTillKurs(mobilProgrammering);
+		albertEinstein.leggTillKurs(kvanteFysikk);
 
-		Kurs albertSittKurs = albertEinstein.getOppsattkurs();
+		Kurs[] albertSineKurs = albertEinstein.getOppsattKurs();
 
-		System.out.println(albertSittKurs.getNavn());
+		System.out.println(albertSineKurs[1].getNavn());
 
 		
 
